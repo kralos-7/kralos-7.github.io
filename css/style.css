@@ -45,7 +45,7 @@
 
 .myclass-main h2 {
     font-size: 1.5rem;
-    color: #615151;
+    color: var(--nord10);
 }
 
 .myclass-pic {
@@ -62,8 +62,8 @@
 }
 
 .section-oscura {
-    color: white;
-    background-color: #1b1b32;    
+    color: var(--nord6);
+    background-color: var(--nord0);    
 }
 
 .about-me .contenedor {
@@ -84,9 +84,14 @@
     padding: 40px;
 }
 
+.experiencia-columna {
+    padding: 5px;
+}
+
 .experiencia-columna:hover {
-    color: white;
-    background-color: #1b1b32;
+    color: var(--nord6);
+    background-color: var(--nord0);
+    border-radius: 5%;
 }
 
 .experiencia-title {
@@ -98,14 +103,14 @@
 .experiencia i {
     font-size: 2.5rem;
     color: var(--nord8);
-    background-color: var(--nord3);
+    background-color: var(--nord0);
     padding: 8px 19px;
     border-radius: 25%;
 }
 
 .section-clara {
-    color: black;
-    background-color: white;
+    color: var(--nord0);
+    background-color: var(--nord6);
 }
 
 .badge-contenedor {
@@ -116,6 +121,8 @@
 
 .badge {
     margin: 5px;
+    background-color: var(--nord0);
+    color: var(--nord6);
 }
 
 /* Others */

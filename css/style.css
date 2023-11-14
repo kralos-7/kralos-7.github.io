@@ -97,8 +97,8 @@
 
 .experiencia i {
     font-size: 2.5rem;
-    color: yellowgreen;
-    background-color: #0a0a23;
+    color: var(--nord8);
+    background-color: var(--nord3);
     padding: 8px 19px;
     border-radius: 25%;
 }
